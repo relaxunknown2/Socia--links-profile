@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    padding: 30px 60px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-family: "Inter";
+    border-radius: 10px;
+    text-align: center;
+}
+
+img {
+    border-radius: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+h1 {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 25px;
+    font-weight: 700;
+}
+
+body > div > div > p:nth-child(3) {
+    color: hsl(75, 94%, 57%);
+    font-size: 1em;
+    font-weight: 600;
+}
+
+body > div > div > p:nth-child(4) {
+    display: block;
+    color: hsl(0, 4%, 75%);
+    font-weight: 400;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 120%;
+    margin-top: 15px;
+    
+}
+
+.links-container a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.links-container button {
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.links-container button:hover {
+    background-color: chartreuse;
+}
+
+
+.attribution {
+    text-align: center;
+    color: hsl(0, 4%, 75%);
+    font-family: "Inter";
+    font-weight: 200;
+    font-size: 0.8em;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: white;
+}
+.attribution a:hover {
+    color: blueviolet;
+}
